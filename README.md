@@ -82,23 +82,23 @@ A missing product returns HTTP 404. An overlong search/category parameter return
 
 - `product_listing.png`
 
-![Product Listing](screenshots/product-listing.png)
+![Product Listing](Screenshots/product-listing.png)
 
 - `product_details.png`
 
-![Product Listing](screenshots/product-details.png)
+![Product Listing](Screenshots/product-details.png)
 
 - `product_search_filter.png` (recommended)
 
-![Product Search Filter](screenshots/Product_Search_Filter.png)
+![Product Search Filter](Screenshots/Product_Search_Filter.png)
 
 - `api_products.png` (recommended)
 
-![Product API Response](screenshots/api_response.png)
+![Product API Response](Screenshots/api_response.png)
 
 - `database_products.png` (recommended)
 
-![Database Products](screenshots/Database_Records.png)
+![Database Products](Screenshots/Database_Records.png)
 
 ## Git setup
 
