@@ -1,4 +1,4 @@
-# ShopLite — E-Commerce Product Listing (Part 1)
+# ShopLite — E-Commerce Product Listing
 
 A local full-stack product catalogue built with Python Flask, SQLite, HTML, CSS and JavaScript.
 
@@ -48,9 +48,12 @@ A local full-stack product catalogue built with Python Flask, SQLite, HTML, CSS 
 
 5. Open http://127.0.0.1:5000/ in your browser.
 
+<<<<<<< HEAD
 Keep the terminal open while using the site. 
 Stop the server with `Ctrl+C`.
 
+=======
+>>>>>>> 1258c721ea023298959e9b0dbc30faa542c314cc
 ## Database
 
 - Database file: `instance/ecommerce.db`
@@ -76,6 +79,7 @@ The frontend does not access the database directly.
 
 A missing product returns HTTP 404. An overlong search/category parameter returns HTTP 400.
 
+<<<<<<< HEAD
 ## Screenshots
 
 - `product_listing.png`
@@ -122,3 +126,12 @@ git push -u origin main
 ## Scope
 
 This repository implements Part 1 (product listing website) for our Programming Lab Assignment. Cart, authentication, authorization, migrations, logging and monitoring are future-stage features.
+=======
+## Author
+
+- Name: [Siddhartha Goyal]
+
+## Scope
+
+This repository implements (product listing website) only. Cart, authentication, authorization, migrations, logging and monitoring are future-stage features.
+>>>>>>> 1258c721ea023298959e9b0dbc30faa542c314cc
