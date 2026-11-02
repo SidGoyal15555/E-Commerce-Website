@@ -48,12 +48,10 @@ A local full-stack product catalogue built with Python Flask, SQLite, HTML, CSS 
 
 5. Open http://127.0.0.1:5000/ in your browser.
 
-<<<<<<< HEAD
 Keep the terminal open while using the site. 
 Stop the server with `Ctrl+C`.
 
-=======
->>>>>>> 1258c721ea023298959e9b0dbc30faa542c314cc
+
 ## Database
 
 - Database file: `instance/ecommerce.db`
@@ -126,12 +124,3 @@ git push -u origin main
 ## Scope
 
 This repository implements Part 1 (product listing website) for our Programming Lab Assignment. Cart, authentication, authorization, migrations, logging and monitoring are future-stage features.
-=======
-## Author
-
-- Name: [Siddhartha Goyal]
-
-## Scope
-
-This repository implements (product listing website) only. Cart, authentication, authorization, migrations, logging and monitoring are future-stage features.
->>>>>>> 1258c721ea023298959e9b0dbc30faa542c314cc
