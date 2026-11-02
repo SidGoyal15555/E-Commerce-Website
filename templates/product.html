@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | ShopLite</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="/">ShopLite</a>
+        <a class="header-link" href="/">Back to products</a>
+    </header>
+
+    <main class="container">
+        <p class="back-link"><a href="/">← Back to catalogue</a></p>
+        <p id="statusMessage" role="status">Loading product...</p>
+        <section id="productDetails"></section>
+    </main>
+
+    <script>const PRODUCT_ID = {{ product_id | tojson }};</script>
+    <script src="{{ url_for('static', filename='js/product.js') }}"></script>
+</body>
+</html>

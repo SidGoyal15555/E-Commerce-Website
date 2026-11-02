@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopLite | Products</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="/">ShopLite</a>
+        <span>Python E-Commerce Demo</span>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <p class="eyebrow">CURATED COLLECTION</p>
+            <h1>Explore Products</h1>
+            <p>Browse the catalogue, search products and view product details.</p>
+        </section>
+
+        <section class="filters" aria-label="Product search and filters">
+            <div class="filter-field">
+                <label for="searchInput">Search products</label>
+                <input id="searchInput" type="search"
+                       placeholder="Search by name or description">
+            </div>
+            <div class="filter-field">
+                <label for="categoryFilter">Category</label>
+                <select id="categoryFilter">
+                    <option value="">All categories</option>
+                </select>
+            </div>
+        </section>
+
+        <div class="results-heading">
+            <h2>Product catalogue</h2>
+            <p id="statusMessage" role="status">Loading products...</p>
+        </div>
+        <section id="productGrid" class="product-grid"
+                 aria-label="Product catalogue"></section>
+    </main>
+
+    <footer class="site-footer">ShopLite · E-Commerce Assignment Part 1</footer>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
